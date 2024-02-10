@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Shadow Using CSS</title>
+    <style>
+        body{
+            background-color: #190019;
+            padding: 70px 200px;
+            margin: 50px 0px;
+        }
+        .shadows{
+            background-color: #190019;
+            position: relative;
+            text-transform: uppercase;
+            text-shadow: -15px 5px 20px #bd83b8;
+            color: #f39f5a;;
+            
+            letter-spacing: 0.1px;
+            font-family:"Anton",Arial, Helvetica, sans-serif;
+            user-select: none;
+            text-transform:uppercase ;
+            font-size: 150px;
+            transition: all 0.25s ease-out;
+        }
+        .shadows:hover{
+            text-shadow: -10px 3px 5px #585050;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="shadows">
+            <span>A</span>
+            <span>N</span>
+            <span>P</span>
+            <span>A</span>
+            <span>D</span>
+            <span>H</span>
+        </div>
+    </div>
+
+    
+</body>
+</html>
